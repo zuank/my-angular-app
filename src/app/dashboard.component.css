@@ -40,6 +40,11 @@ h4 {
   cursor: pointer;
   color: #607d8b;
 }
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 .grid-pad {
   padding: 10px 0;
 }
